@@ -1,0 +1,18 @@
+{
+  "name": "whatsapp-sticker-bot",
+  "version": "1.0.0",
+  "description": "Bot WhatsApp untuk membuat stiker dari foto",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "whatsapp-web.js": "^1.23.0",
+    "qrcode-terminal": "^0.12.0",
+    "sharp": "^0.32.0"
+  },
+  "keywords": ["whatsapp", "bot", "sticker"],
+  "author": "Your Name",
+  "license": "MIT"
+}
